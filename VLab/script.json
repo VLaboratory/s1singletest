@@ -1,0 +1,15 @@
+{
+  "scripts": [
+
+    {
+      "repoPath": "run.sh",
+      "targetPath": "run.sh",
+      "pathType": "FILE"
+    },
+    {
+      "repoPath": "s1.sh",
+      "targetPath": "s1.sh",
+      "pathType": "FILE"
+    }
+  ]
+}

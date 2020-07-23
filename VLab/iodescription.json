@@ -1,0 +1,27 @@
+{
+  "inputs": [
+    {
+      "id": "s1_grd_iw",
+      "inputType": "individual",
+      "valueType": "value",
+      "name": "Sentinel 1 GRD IW Product",
+      "description": "Sentinel 1 GRD IW Product",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "sat_product",
+      "target": "data/satproduct/"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "s1_grd_iw_png",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "",
+      "name": "PNG of Sentinel 1 GRD IW Product",
+      "valueSchema": "url",
+      "target": "data/preview.png",
+      "createFolder": false
+    }
+  ]
+}
